@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TY Search app</title>
+
+    <!--Google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--Style Sheet link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1> TV Show <span>Search</span> </h1>
+    <p>
+        if you want to search TV information then you've come to the right place!
+    </p>
+
+    <form action="submit" id="searchForm">
+        <input type="text" placeholder="Search TV Shows" name="query">
+        <button>Search</button>
+        <a href="#">Clear Search</a>
+        <a href="#" class="imgRemover">Clear Images</a>
+    </form>
+
+    <div class="container"></div>
+
+    <!--Axios cdn link-->
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    
+    <!--JavaScript file-->
+    <script src="app.js"></script>
+</body>
+
+</html>
